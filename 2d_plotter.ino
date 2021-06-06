@@ -1,4 +1,5 @@
 /*
+Arduino bassed 2d pen plotter using dvd drivers
 myStepperX is x axix stepper conncted at pin 4,5,7 and 7. mySteppery for y axis on digital pins 8,9,10
 and 11. Each pairs of wire(like 4 and 5, 8 and 9) can be altered for cange in dir of stepper motor.
 
