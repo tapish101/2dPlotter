@@ -433,6 +433,7 @@ void Homing(){
  * using it with emergency stop switch
  */
 void ENABLE(){
+  //millies() for debouncing of switch
   static unsigned long last_interrupt_time = 0;
   unsigned long interrupt_time = millis();
   if (interrupt_time - last_interrupt_time > 200) 
